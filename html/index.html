@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valheim Service</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-family: monospace;
+        background-image: url("village.png");
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 15px;
+        font-size: 0.9em;
+        text-align: left;
+      }
+      td,
+      th {
+        border-bottom: 1px solid #ccc;
+        padding: 5px;
+      }
+      .container {
+        overflow-y: auto;
+        width: 100%;
+        height: 100%;
+      }
+      .cards {
+        display: grid;
+        position: relative;
+        flex-grow: 1;
+        margin: 0 auto;
+        width: 900px;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        overflow: hidden;
+        min-width: 400px;
+        border: 1px solid grey;
+      }
+      .card-title {
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+        background-color: whitesmoke;
+        padding: 10px 15px;
+        flex-shrink: 0;
+      }
+      .card-content {
+        padding: 10px 15px;
+        background-color: white;
+        flex-grow: 1;
+      }
+      .logo-container {
+        height: 250px;
+        width: 100%;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .logo {
+        padding: 25px;
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 0 auto;
+      }
+      .join-address {
+        margin-bottom: 10px;
+      }
+      .join-instructions {
+        margin-bottom: 20px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .emphasis {
+        font-style: italic;
+      }
+      .hint {
+        color: grey;
+        font-size: 0.85em;
+      }
+      .command {
+        background: whitesmoke;
+        padding: 0 5px;
+        border: 1px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="valheimlogo.webp" alt="Valheim" height="150" />
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">Join Server</div>
+          <div class="card-content">
+            <div class="join-address">
+              <div><span class="bold">IP:</span> valheim.raydn.net</div>
+            </div>
+            <div class="join-instructions">
+              <div class="bold">Instructions:</div>
+              <div>
+                1. Install <span class="emphasis">correct version</span> of
+                Valheim from Steam Console
+                <ul>
+                  <li>
+                    Open Run (Win+R) and enter:
+                    <span class="command">steam://open/console</span>
+                  </li>
+                  <li>
+                    <div>
+                      In console enter:
+                      <span class="command"
+                        >download_depot 892970 892972 3410041158917659941</span
+                      >
+                    </div>
+                    <div class="hint">
+                      Usage: download_depot [app_id] [depot_id] [manifest_id]
+                    </div>
+                  </li>
+                  <li>
+                    Once complete find download folder and copy to seperate
+                    location<br />(to prevent Steam from updating)
+                  </li>
+                </ul>
+              </div>
+              <div>
+                2. Install BepInEx in Valheim folder (manual install)
+                <span class="hint">See 'Required Files' below</span>
+              </div>
+              <div>
+                3. Download modpack.zip & extract into Valheim folder
+                <span class="hint">See 'Required Files' below</span>
+              </div>
+              <div>4. Launch Valheim and add IP to server list</div>
+            </div>
+            <img src="join-server.jpg" width="800" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Required Files</div>
+          <div class="card-content">
+            <table>
+              <thead>
+                <tr>
+                  <th>Filename</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>BepInEx-5.4.1901.zip</td>
+                  <td><a href="/denikson-BepInExPack_Valheim-5.4.1901.zip" download>Download</a></td>
+                </tr>
+                <tr>
+                  <td>modpack.zip</td>
+                  <td><a href="/modpack.zip" download>Download</a></td>
+                </tr>
+                <tr>
+                  <td>topg.jpg</td>
+                  <td><a href="/topg.jpg" download>Download</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+BetterArchery - Zoom, pickup arrows, quills
+BetterLadders - smooth ladder climbing
+BetterUI - upgrade stats, improved UI
+BuildCamera - noclip camera mode when holding hammer for building
+EquipmentQuickSlots - dedicated slots for armour and weapons
+Evasion - adds new skill you can level by dodging attacks
+FarmGrid - helps you place plants the correct distance to grow
+FloatingItems - items float in water so you can get can them if its deep
+InstantMonsterDrop - removes slow wait for items to drop on kill
+JotunnBackpacks - adds backpacks!!! these are a god send
+Lumberjacking - replaces woodcutting skill to make it better
+MultiUserChest - players can open & use the same chest at the same time
+NoRainDamage - stops rain from destorying builds over time (super annoying)
+PackHorse - adds new skill you can level by carrying heavy items increases max carry weight
+QuickStackStore - helpful buttons for sorting items in chests etc
+Sailing - adds new skill you can level from sailing which improves boat health
+StaminaOverhaul - very minor tweaks to stamina to make it less annoying
+SteadyRegen - pure visual change to health regen to make it slowly increase instead of bursts of health
+UseEquipmentInWater - if you walk into the water it will not unequipt your axe, hammer, etc (was super annoying)
