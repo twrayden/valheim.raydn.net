@@ -1,0 +1,8 @@
+{
+  "port": "2456",
+  "name": "grubs only",
+  "world": "PickleWorld",
+  "public": "0",
+  "password": "woody",
+  "command": "/home/steam/valheim/valheim_server.x86_64"
+}

@@ -1,0 +1,44 @@
+{
+  "events": {
+    "update": {
+      "content": "Notification: {{server_name}}",
+      "embeds": [
+        {
+          "title": "{{title}}",
+          "description": "{{description}}",
+          "color": 16388413
+        }
+      ]
+    },
+    "broadcast": {
+      "content": "Notification: {{server_name}}",
+      "embeds": [
+        {
+          "title": "{{title}}",
+          "description": "{{description}}",
+          "color": 16388413
+        }
+      ]
+    },
+    "start": {
+      "content": "Notification: {{server_name}}",
+      "embeds": [
+        {
+          "title": "{{title}}",
+          "description": "{{description}}",
+          "color": 16388413
+        }
+      ]
+    },
+    "stop": {
+      "content": "Notification: {{server_name}}",
+      "embeds": [
+        {
+          "title": "{{title}}",
+          "description": "{{description}}",
+          "color": 16388413
+        }
+      ]
+    }
+  }
+}
